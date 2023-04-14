@@ -1,0 +1,98 @@
+body {
+         background-image: url("pattern-background-desktop.svg");
+         background-repeat: no-repeat;
+         background-size: 40cm;
+         background-color: hsl(225, 100%, 94%);
+}
+.main {
+     background-color: hsl(225, 100%, 98%);
+     width: 375px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 11rem auto;
+     border-radius: 10px;
+}
+
+.box {
+    padding: 12px 12px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.image {
+    width: 375px;
+    border-radius: 10px 10px 0 0;
+}
+
+.header {
+    color:hsl(223, 47%, 23%);
+}
+
+.paragraph {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-family: RedHatDisplay;
+}
+
+.price {
+    background-color:hsla(224, 23%, 55%, 0.099);
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.bbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.icon_image {
+    margin: 0 20px;
+    padding: 20px 0px;
+}
+
+.plan {
+    color: hsl(223, 47%, 23%);
+     font-weight: bold;
+     font-size: 15px;
+}
+
+.amount {
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin: 10px 3px;
+}
+
+.change {
+    margin: 30px 22px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+}
+
+.payment {
+    background-color:  rgb(81, 0, 255);
+    color: hsl(225, 100%, 98%);
+    margin: 10px auto;
+    padding: 0.5rem 5rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px hsla(257, 47%, 23%, 0.674);
+    text-align: center;
+}
+
+.cancel {
+    background-color:  hsl(225, 100%, 98%);
+    color:hsl(224, 23%, 55%);
+    border: none;
+    border-radius: 10px;
+    margin: 10px auto;
+}
